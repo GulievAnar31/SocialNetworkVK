@@ -1,0 +1,21 @@
+.header {
+    background-color: white;
+    display: flex;
+}
+
+.header h1 {
+    margin-left: 600px;
+}
+
+.search {
+    margin-top: 15px;
+    margin-left: 100px;
+    width: 14em;
+    height: 48px;
+    background-color: #dce1e6;
+    font-size: 20px;
+    border: none;
+    border-radius: 4%;
+    outline: 0;
+    box-shadow: 0;
+}

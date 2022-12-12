@@ -1,7 +1,15 @@
 .header {
+    grid-area: header;
     background-color: white;
     display: flex;
     justify-content: space-around;
+}
+
+.header a {
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+    flex: 1 1 1;
 }
 
 .search {
@@ -15,6 +23,7 @@
     border-radius: 4%;
     outline: 0;
     box-shadow: 0;
+    flex: 1 1 1;
 }
 
 .logout {
@@ -22,6 +31,7 @@
     cursor: pointer;
     border: none;
     background: none;
+    flex: 1 1 1;
 }
 
 .logout:hover {

@@ -1,0 +1,6 @@
+.userInfo {
+    margin-top: 1%;
+    grid-area: content;
+    width: 80%;
+    background-color: white;
+}

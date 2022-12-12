@@ -1,0 +1,21 @@
+.navigation {
+    grid-area: navigation;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1%;
+    margin-left: 40%;
+}
+
+.navigation a {
+    width: 230px;
+    padding-left: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 210%;
+    margin-top: 20px;
+}
+
+.navigation a:hover {
+    color: rgb(54, 53, 53);
+    text-decoration: underline;
+}

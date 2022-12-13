@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './style.module.css';
+import styles from './style.module.scss';
 
 export const Header: React.FC = (): JSX.Element => {
     return <header className={styles.header}>
